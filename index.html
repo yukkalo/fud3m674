@@ -3,22 +3,39 @@
     <head>
       <meta charset="utf-8">
     </head>
-
     <body>
     <div>
-    <br><br><br><p align = "center">
-    <text>Welcome to Floating Utopia<br>Press the button to enter<br></text>
-    <br>
+    <p align = "center">
+    <text>Welcome to Floating Utopia<br>
+    Reality is semi-real. 
+    The boundaries of it's biological and digital body are similar to a surface of swamps - zones of geological instability, floating boundaries between land and water. 
+    They are, at the same time, natural ecotones - sources of biodiversity and places of stress, where ecosystems collide and various ways of species coexistence meet.
+    <br>We are considering various options for assembling new utopian scenarios of the world, the producers of which are algorithms and neural networks.
+    The resulting reconstructions are hybrid patches, inhabited by a variety of myths and strange inhabitants - datasets involved in rehearsing the end of the world and visualizing its restoration. 
+    While living organisms on Earth are gradually filling with plastic, a new (bio) diverse utopia is being written by machines.
+    <br><br>
+    <p align = "left"> Press the button to enter<br></text>
+        
+<!--     <button slot="ar-button" id="ar-button">
+    View in your space
+    </button>   -->
+        
    <style>
     model-viewer {
-    width: 800px;
-    height: 600px;
+    width: 1000px;
+    height: 500px;
     }
     </style>
-    <model-viewer src="final_scene.glb" alt="scene" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls unstable-webxr></model-viewer>
+    <model-viewer src="baking_4figures_and dots2.glb" quick-look-browsers="safari chrome" alt="scene" ar ar-modes="webxr scene-viewer quick-look"
+                  environment-image="neutral" auto-rotate camera-controls unstable-webxr>
+      <button slot="ar-button" style="background-color: white; border-radius: 4px; position: absolute; top: 16px; left: 16px; height: 35px; width: 200px; font-size: 24px">
+      👋 Go into AR
+      </button>
+    </model-viewer>
     </div>
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"> 
     </script>
+        
     </body>
 </html>
 
